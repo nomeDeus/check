@@ -4,8 +4,6 @@ import shutil
 from pathlib import Path
 from time import localtime, strftime
 
-#d = datetime.datetime.now()
-
 src = Path("../spoon-output")
 dst = Path("../Results/" + strftime('%Y-%m-%d_%H_%M_%S/', localtime()))
 
